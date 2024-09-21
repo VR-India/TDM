@@ -13,15 +13,20 @@ public class Dialogues
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private Dialogues dialogue;
+
     [SerializeField] private TMP_Text displayDialogueText;
-    [SerializeField] private Button previousButton, nextButton, startButton;
+    [SerializeField] private Button previousButton, nextButton;//, startButton;
+
+   // [SerializeField] private Animator animator;
+
+    private int dialogueCount = 0;
+    private AudioSource audioSource;
+
     [SerializeField] private static float textStartDelay = 0.4f;
     [SerializeField] private static float textCharDelay = 0.04f;
     [SerializeField] private static float longPause = 0.6f;
     [SerializeField] private static float shortPause = 0.1f;
 
-    private int dialogueCount = 0;
-    private AudioSource audioSource;
     private Coroutine textCoroutine;
     private Coroutine audioCoroutine;
 
@@ -36,6 +41,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueCount = 0;
         text = string.Empty;
+
         if (textCoroutine != null && audioCoroutine != null)
         {
             StopCoroutine(textCoroutine);
@@ -45,6 +51,7 @@ public class DialogueManager : MonoBehaviour
         {
             audioSource.Stop();
         }
+
         UpdateButtons();
     }
 
@@ -72,6 +79,7 @@ public class DialogueManager : MonoBehaviour
 
     public void PlayDialogue(int index)
     {
+
         dialogueCount = index;
         UpdateButtons();
         PlayDialogueWithSync(dialogueCount);
@@ -84,10 +92,13 @@ public class DialogueManager : MonoBehaviour
     }
 
     private string text = null;
+
     private void PlayDialogueWithSync(int index)
     {
+        print(" Its running");
         text = dialogue.dialogueText[index];
         audioSource.clip = dialogue.dialogueAudio[index];
+
         displayDialogueText.text = "";
 
         if (audioSource != null)
@@ -103,6 +114,7 @@ public class DialogueManager : MonoBehaviour
             StopCoroutine(textCoroutine);
             StopCoroutine(audioCoroutine);
         }
+
         textCoroutine = StartCoroutine(WaitForDialogueText());
         audioCoroutine = StartCoroutine(WaitForDialogueAudio());
     }
@@ -111,7 +123,10 @@ public class DialogueManager : MonoBehaviour
     {
         previousButton.interactable = false;
         nextButton.interactable = false;
+
         yield return new WaitForSeconds(textStartDelay);
+
+        // animator.SetBool("IsTalking", true);
 
         for (int i = 0; i < text.Length; i++)
         {
@@ -133,6 +148,9 @@ public class DialogueManager : MonoBehaviour
     private IEnumerator WaitForDialogueAudio()
     {
         yield return new WaitForSeconds(audioSource.clip.length);
+
+        // animator.SetBool("IsTalking", false);
+
         yield return new WaitForSeconds(0.5f);
 
         if (dialogueCount < dialogue.dialogueText.Length - 1)
