@@ -1,10 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/TextMesh Pro/Documentation.meta
 <<<<<<<< HEAD:Assets/TextMesh Pro/Documentation.meta
-guid: 1fa078c5ad8d1554bb79bb105b80a7aa
+guid: 8e7e8f5a82a3a134e91c54efd2274ea9
 ========
 guid: 01547291e4dc1f842a4e6507a5ceec8c
 >>>>>>>> 744e1f859d388a930a3e55b33d654d6942876552:Assets/ART/Animations.meta
 folderAsset: yes
+=======
+guid: 42af5a8eab707f64aa753da764bc1254
+>>>>>>> parent of 432628c (environment design):Assets/Plugins/BNG Framework/Integrations/Emerald AI/EmeraldAIIntegration.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

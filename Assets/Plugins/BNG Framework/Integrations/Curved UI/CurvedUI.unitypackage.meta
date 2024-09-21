@@ -1,10 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/TextMesh Pro.meta
 <<<<<<<< HEAD:Assets/TextMesh Pro.meta
-guid: 38c6ee64fc4d8ba40bb15a10ba2142c4
+guid: f54d1bd14bd3ca042bd867b519fee8cc
 folderAsset: yes
 ========
 guid: 97c0fc93dcbef424fa4b0ca0c42eb4e5
 >>>>>>>> 744e1f859d388a930a3e55b33d654d6942876552:Assets/Scenes/TrainLocation.unity.meta
+=======
+guid: 35b60dc21660c30419c75fb8bbde1e43
+>>>>>>> parent of 432628c (environment design):Assets/Plugins/BNG Framework/Integrations/Curved UI/CurvedUI.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
