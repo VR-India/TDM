@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TextMesh Pro.meta
 guid: f54d1bd14bd3ca042bd867b519fee8cc
 folderAsset: yes
+========
+guid: 97c0fc93dcbef424fa4b0ca0c42eb4e5
+>>>>>>>> 744e1f859d388a930a3e55b33d654d6942876552:Assets/Scenes/TrainLocation.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
