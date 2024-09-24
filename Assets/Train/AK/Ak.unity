@@ -883,7 +883,13 @@ PrefabInstance:
       value: track
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -6473100795115870233, guid: 04540fa50b38e2947b409bd693ca5e33, type: 3}
+    - {fileID: -7308869007572338813, guid: 04540fa50b38e2947b409bd693ca5e33, type: 3}
+    - {fileID: 685285518264269527, guid: 04540fa50b38e2947b409bd693ca5e33, type: 3}
+    - {fileID: -2125727890863995345, guid: 04540fa50b38e2947b409bd693ca5e33, type: 3}
+    - {fileID: 4321723977805915629, guid: 04540fa50b38e2947b409bd693ca5e33, type: 3}
+    - {fileID: -3360084142948533122, guid: 04540fa50b38e2947b409bd693ca5e33, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04540fa50b38e2947b409bd693ca5e33, type: 3}

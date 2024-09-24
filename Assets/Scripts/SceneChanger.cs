@@ -3,14 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+    public GameObject envi;
+    public DialogueManager dialogueManager;
+ 
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
-
-    public GameObject envi;
-    public DialogueManager dialogueManager;
-
 
     private void Start()
     {
