@@ -372,7 +372,6 @@ MonoBehaviour:
   displayDialogueText: {fileID: 2321263764269057843}
   previousButton: {fileID: 9152421846105090825}
   nextButton: {fileID: 8996010174748078518}
-  startButton: {fileID: 385404773201234014}
 --- !u!1 &1444358322813008490
 GameObject:
   m_ObjectHideFlags: 0
