@@ -124,6 +124,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 474816143101949416, guid: 4422aea394d98344fa62017f57b69088,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4422aea394d98344fa62017f57b69088,
         type: 3}
       propertyPath: m_Name
@@ -236,6 +241,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Railway_Disasters_setup1
       objectReference: {fileID: 0}
+    - target: {fileID: 6779153926643999235, guid: 89eabddba48c93445bbbf5a8e1380b3c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.437
+      objectReference: {fileID: 0}
     - target: {fileID: 9041893051666423527, guid: 89eabddba48c93445bbbf5a8e1380b3c,
         type: 3}
       propertyPath: m_IsActive
@@ -314,6 +324,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: train_other_animations_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320797139112958502, guid: 7d6475fe61e967f4d9b5ef39e9aaccc4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6367812324292912465, guid: 7d6475fe61e967f4d9b5ef39e9aaccc4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
