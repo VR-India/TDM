@@ -6,7 +6,7 @@ public class SceneChanger : MonoBehaviour
     public GameObject envi;
     public DialogueManager dialogueManager;
  
-    public void ChangeScene(string sceneName)
+    public void ChangeScene(int sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }

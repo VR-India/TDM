@@ -5,12 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/IntroOffice.unity
-    guid: d69e5d1be399d354e8438ef9c7434478
-  - enabled: 0
-    path: Assets/Scenes/TrainLocation.unity
-    guid: 97c0fc93dcbef424fa4b0ca0c42eb4e5
+  - enabled: 1
+    path: Assets/Train/IntroOffice.unity
+    guid: d3f168c751057f545866514fbdde5f7a
+  - enabled: 1
+    path: Assets/Train/Ag/Train accident scene_Final.unity
+    guid: e06d85f6b85bc39419ee0f3f479e1627
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 576e0535930b967459bceba270c81ec1,
       type: 2}
