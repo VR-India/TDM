@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: 5bc501a6e10c6e34886de1e16b1de612
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 13faf5a52ddfc67419241c00863a8c5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_Welder_tex8_blinn9
+    second: {fileID: 2100000, guid: 4ae59ff52dc471541a6d28b9725ae454, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_blinn10
+    second: {fileID: 2100000, guid: a5f9ed70846d14b4a9853c1996cc7388, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_blinn11
+    second: {fileID: 2100000, guid: b70dc52e3031c67449f0b9397987a1e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_blinn12
+    second: {fileID: 2100000, guid: 1d03d4cc098e1264f84d0c24a69136dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_blinn7
+    second: {fileID: 2100000, guid: 9d81452e8fdbfc84b8f5ef8ace5a4347, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_blinn8
+    second: {fileID: 2100000, guid: b3a21616ed5abe046a3cc5f0f599a7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_blinn9
+    second: {fileID: 2100000, guid: f1a43e587bd242242b23f6b09703d0d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_hand__transrpernt
+    second: {fileID: 2100000, guid: c55bd39d7b9135c4cadfea8912e5e9b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_pasted__VRayMtl10
+    second: {fileID: 2100000, guid: b81fc63563f402942af062043b82aa36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_pasted__VRayMtl11
+    second: {fileID: 2100000, guid: 983c34c8ee92f424eab229113b78039f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_pasted__VRayMtl12
+    second: {fileID: 2100000, guid: eb2496fde2f5ff2418daa042e12d1c6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_safety_man_B_VRayMtl4
+    second: {fileID: 2100000, guid: d88e8f3e12966ca42a5f291cfa6bc81a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final1_safety_man_B_VRayMtl9
+    second: {fileID: 2100000, guid: 3f769e4ba14b46e47b669310711793d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_Welder_tex8_blinn9
+    second: {fileID: 2100000, guid: fc2b85713a4da5d468d098d5c2d9a829, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_blinn10
+    second: {fileID: 2100000, guid: d2d9cf60a7520a340925b6f50be222a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_blinn11
+    second: {fileID: 2100000, guid: 1149ad9d066ffc84aab054c70ca1f755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_blinn12
+    second: {fileID: 2100000, guid: 00c9001afb19bc448b0d4510f6c25c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_blinn7
+    second: {fileID: 2100000, guid: 5e250c6560de7f34bba259a0c9c7d4ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_blinn8
+    second: {fileID: 2100000, guid: 6e61b16683b995242baa3aa580e4aa00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_blinn9
+    second: {fileID: 2100000, guid: a9ce3f26de099834c9c08fc9c205c438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_hand__transrpernt
+    second: {fileID: 2100000, guid: b1e4b876ae405b54791fda56b4d59248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_pasted__VRayMtl10
+    second: {fileID: 2100000, guid: dce0ceb75f8fab44287798ec6aa82486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_pasted__VRayMtl11
+    second: {fileID: 2100000, guid: e3acd4e164eea06439e8ac2154bf04b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_pasted__VRayMtl12
+    second: {fileID: 2100000, guid: 362e43a53b3054240b8d6c9b87995e1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_safety_man_B_VRayMtl4
+    second: {fileID: 2100000, guid: 2ba921dbd9caad043a190cb28937d0d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Welder_rig_final_safety_man_B_VRayMtl9
+    second: {fileID: 2100000, guid: e1ac072f1ae9cf141a01c5d59d73ec14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn1
+    second: {fileID: 2100000, guid: 5c1f1a3e852596e42bbcb9e9e8f8924b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn10
+    second: {fileID: 2100000, guid: fb9a450d3cfe27a49ae201971567cec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn13
+    second: {fileID: 2100000, guid: 1433f69e3d73baa4fa0e016ff3c4dfa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn14
+    second: {fileID: 2100000, guid: 442de41c3505e6f47b4954f5502cf39a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn15
+    second: {fileID: 2100000, guid: 9ffcba36f0749c846ad1aed5849ab5e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn2
+    second: {fileID: 2100000, guid: 37f7882eb73be4d409a7bb944cad1da0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn3
+    second: {fileID: 2100000, guid: f75e0d6100e5f6c459926475c56f7a69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn4
+    second: {fileID: 2100000, guid: d72714bd922d4254596a5da09eec5fab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn5
+    second: {fileID: 2100000, guid: c0baf905989143c49bbeda54dfa5f856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn6
+    second: {fileID: 2100000, guid: 76166f8ae07edbe4bac8502ea24df845, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn7
+    second: {fileID: 2100000, guid: adea2df7dac1d714da9c78d310ebb67b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn8
+    second: {fileID: 2100000, guid: b3d034d13a87734458fbd6a2fb05bd7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_blinn9
+    second: {fileID: 2100000, guid: 9ebb02cabaae5304bbb8db1b159d40d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig1_face_lambert9
+    second: {fileID: 2100000, guid: f6923183cb9ca894e9ce96f514d39b8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn1
+    second: {fileID: 2100000, guid: 949da2673988fd041b28e5cfd977ab93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn10
+    second: {fileID: 2100000, guid: fd5c99eb347cf9043ac2307f7efe6b41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn13
+    second: {fileID: 2100000, guid: d16123749eb14d947a74d66e615a5147, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn14
+    second: {fileID: 2100000, guid: ad843a9205896fb489ba82e17bd5f6b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn15
+    second: {fileID: 2100000, guid: 8fa513c60295e8b4f8ed92e6107cd6ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn2
+    second: {fileID: 2100000, guid: 19af8e535600d824f99b17c206d021b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn3
+    second: {fileID: 2100000, guid: cf06db1805ef69145a800eb2e32d01cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn4
+    second: {fileID: 2100000, guid: 4103cf0a38e897b489a4f80030d98607, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn5
+    second: {fileID: 2100000, guid: 04b245efa046a9a4289edd2a6e60ba46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn6
+    second: {fileID: 2100000, guid: 41edce2c3946e5746bbba548fc22e32f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn7
+    second: {fileID: 2100000, guid: b0594f67abb33e947a41b631c813eec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn8
+    second: {fileID: 2100000, guid: 3227a357cdbc1e64299f2b5a1b093e2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_blinn9
+    second: {fileID: 2100000, guid: fe983e1c9d432c246a44eea7e7c191c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctor_Rig_face_lambert9
+    second: {fileID: 2100000, guid: 4e71e0044a27a1747996af61c184f79b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 3b8f1e183dc56ec4dad836f88f116bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 36ee38b9501b5f84c9d14de101996fa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stretcher_rig_Streatcher_sdr
+    second: {fileID: 2100000, guid: 0fd137d26fc49ee40b0f21d9a3c6c8dc, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

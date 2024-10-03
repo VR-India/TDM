@@ -13,7 +13,8 @@ public class Ghost : MonoBehaviour
             other.transform.parent = transform.parent;
             other.transform.position = transform.position;
             other.transform.rotation = transform.rotation;
-            other.GetComponent<CapsuleCollider>().enabled = false;
+            other.GetComponent<SphereCollider>().enabled = false;
+            gameObject.SetActive(false);    
             Debug.Log("triggered");
         }
         else

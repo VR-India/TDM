@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/IntroOffice.unity
     guid: d69e5d1be399d354e8438ef9c7434478
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TrainLocation.unity
     guid: 97c0fc93dcbef424fa4b0ca0c42eb4e5
   m_configObjects:

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - survexical collar
+  - Inspect pose trigger
+  - World
+  - P1
+  - cervical colllar
   layers:
   - Default
   - TransparentFX

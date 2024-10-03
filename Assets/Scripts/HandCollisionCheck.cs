@@ -5,13 +5,17 @@ using UnityEngine;
 public class HandCollisionCheck : MonoBehaviour
 {
     SphereCollider coll;
+    
     private void Start()
     {
         coll = GetComponent<SphereCollider>();
     }
     private void OnTriggerStay(Collider other)
     {
-        coll.enabled = false;
-
+        if (other.tag == "Player")
+        {
+            coll.enabled = false;
+            Manager.instance.inspectCount++;
+        }
     }
 }

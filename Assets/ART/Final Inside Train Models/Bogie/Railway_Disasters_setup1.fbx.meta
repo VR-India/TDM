@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 89eabddba48c93445bbbf5a8e1380b3c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backdoors2
+    second: {fileID: 2100000, guid: 98c261f249857b14980e3453a811f801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backsidedoors
+    second: {fileID: 2100000, guid: b6784ae7b7c32e24ab7f03958c50df41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: board
+    second: {fileID: 2100000, guid: 45d36a7da6be9eb47b665482009fca6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bolt
+    second: {fileID: 2100000, guid: 81b036df79edb604380c55d0da733db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brokenpices1
+    second: {fileID: 2100000, guid: c42bf34a9ea755f4cb4e7672f2622a82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brokrnglass
+    second: {fileID: 2100000, guid: fe1d3e1100f1814419665476edabb021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: centerdoor
+    second: {fileID: 2100000, guid: 98f460be7c19b2e418c58531d3320236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coach_texture02_lambert9shink
+    second: {fileID: 2100000, guid: 264639260faef0c4b9c030be2ad771ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: conector
+    second: {fileID: 2100000, guid: a0e1e5b734f004a4c80e89df8b7703c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cylender
+    second: {fileID: 2100000, guid: 88af0b81ecd260344953804e223260d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass1
+    second: {fileID: 2100000, guid: 77c3dedb4c779e94b88a5bf4bf484e9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: insidefrane
+    second: {fileID: 2100000, guid: b70617890c7ea7f4ba06ebe06a3d36c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: insidemetal
+    second: {fileID: 2100000, guid: 7be8e96ee248a1e409e12fb36e716c1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: insidewall
+    second: {fileID: 2100000, guid: 15c8e3ff6854f0542aa43edde599f429, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: insifemetal
+    second: {fileID: 2100000, guid: 1d4a3ee55e78b0e499a2297eeaddf774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights1
+    second: {fileID: 2100000, guid: 773ec6792f8e4d5419ae2fe21cda4c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights2
+    second: {fileID: 2100000, guid: 58a96ac5509c76b4f803f30f7fb9b7ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: maindoors
+    second: {fileID: 2100000, guid: f6a2e7883546dc145a758639ed11098f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainframe
+    second: {fileID: 2100000, guid: 189822f9194da234399198b5c5fed83a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainframe1
+    second: {fileID: 2100000, guid: 207002bb4d1dc244fb96cfd214fbcb3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipearea1
+    second: {fileID: 2100000, guid: 7e716b289ca05b4428d25db869af524b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipelinearea
+    second: {fileID: 2100000, guid: ccbc5535e0f5f53489819d215f28f047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rods
+    second: {fileID: 2100000, guid: c2547724491ccd1438c991f1aea25496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rubber
+    second: {fileID: 2100000, guid: c150613e82a2d8c40941a8d7fb788959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn1
+    second: {fileID: 2100000, guid: 4c47c9c3b837af145aa516240852db7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn10
+    second: {fileID: 2100000, guid: cbff7ed9d9c32e041a1610167f78471d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn11
+    second: {fileID: 2100000, guid: 617a1be872ff18644827f9bc5b3c087d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn12
+    second: {fileID: 2100000, guid: d3d5343377ba57540a29313e5ea78796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn13
+    second: {fileID: 2100000, guid: 19a5d6732f6064d4eaeff8bd6c2e5555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn14
+    second: {fileID: 2100000, guid: 9aa445d17ac87db4a8a9722ea80f39ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn15
+    second: {fileID: 2100000, guid: a608a79c6c8b2bb4396abb3bf09a9ce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn16
+    second: {fileID: 2100000, guid: 2f73b9edfb65d4b4a9dfeec9887ef734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn2
+    second: {fileID: 2100000, guid: bb0b6dca1b5224041b034597a459e23b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn3
+    second: {fileID: 2100000, guid: 8f80b7d1101e3c549bc35c6de7646fb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn4
+    second: {fileID: 2100000, guid: abc8d616131ad254daee045c90fca4d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn5
+    second: {fileID: 2100000, guid: fe00ef2f6ea112141b38ba1e1ccc5b57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn6
+    second: {fileID: 2100000, guid: 20ca635080cf664458eda9686c79876c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn7
+    second: {fileID: 2100000, guid: 0d913c62ec8b2fb478045cdf7a5f1d30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn8
+    second: {fileID: 2100000, guid: 17b35a1fe43d20744bdd0f67a7bc422e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seats_area1_vr_blinn9
+    second: {fileID: 2100000, guid: b7602056ceee1c949bf404b0c13c3549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sidewalls
+    second: {fileID: 2100000, guid: 4db7790085a77314385b6c40636135cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sidewalls1
+    second: {fileID: 2100000, guid: bbe85e9df70dc4a45ac9969c1868ca62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smalllights
+    second: {fileID: 2100000, guid: 53f3b8dfd9946b94faa95b8a8d7d30e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steps
+    second: {fileID: 2100000, guid: 5b766edc345f31f4f90fa93351fddd7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steps1
+    second: {fileID: 2100000, guid: 054dada5f10885a4eab4205f42907ee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: supportrods
+    second: {fileID: 2100000, guid: dfec9bd55277508409721c9ae52ead53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tap
+    second: {fileID: 2100000, guid: b1d188d1b783e2d4eb948b65c9ba544e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topbar
+    second: {fileID: 2100000, guid: 1ff9bd602fae0f841b6953a667b62c8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topframe
+    second: {fileID: 2100000, guid: 936d2cfc56df2364f9ccc0c17b045a0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ventilation
+    second: {fileID: 2100000, guid: 521c1a3f1013d5343947ba86a76fc04a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ventilation2
+    second: {fileID: 2100000, guid: 404bc622f26254d48a912947f4849322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: washraeadoors2
+    second: {fileID: 2100000, guid: 7ca084979e6f9c14d8e888b1334f2b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: washroomareadoors
+    second: {fileID: 2100000, guid: 03a999d6cfa73ee458b21ed5ea747d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: watershink
+    second: {fileID: 2100000, guid: b48d3bb1599f449448aa6fa5c2e5a96b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weel
+    second: {fileID: 2100000, guid: b680605d4c07ada4ba18809d9026ab9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weel1
+    second: {fileID: 2100000, guid: 8e54485516fd28f41b426fdc039a520c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
