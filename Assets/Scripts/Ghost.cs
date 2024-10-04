@@ -8,16 +8,22 @@ public class Ghost : MonoBehaviour
 {
     private void OnTriggerStay(Collider other)
     {
-        if(other.gameObject.tag == "survexical collar" && !other.GetComponent<Grabbable>().BeingHeld)
+        if(other.gameObject.tag == "collar" && !other.GetComponent<Grabbable>().BeingHeld)
         {
             other.transform.parent = transform.parent;
             other.transform.position = transform.position;
             other.transform.rotation = transform.rotation;
             other.GetComponent<SphereCollider>().enabled = false;
-            gameObject.SetActive(false);    
-            Debug.Log("triggered");
+            gameObject.SetActive(false);
+            ActivateInjuryCheckGhost();
         }
-        else
-            Debug.Log("didn't enter if condition");
+    }
+
+    void ActivateInjuryCheckGhost()
+    {
+        if(gameObject.name == "collar ghost")
+        {
+
+        }
     }
 }
