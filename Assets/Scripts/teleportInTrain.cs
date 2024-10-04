@@ -12,7 +12,6 @@ public class teleportInTrain : MonoBehaviour
         {
             other.transform.position = teleportPosition;
             other.transform.eulerAngles = teleportRotation;
-            audioManager.instance.PlayAudio("");
         }
     }
 }

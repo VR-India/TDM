@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using UnityEngine;
 
 [Serializable]
@@ -14,12 +13,14 @@ public class Manager : MonoBehaviour
     public static Manager instance;
 
     public Animators[] anims;
-    
+
+    [HideInInspector]
     public int inspectCount;
     bool chestChecked,backChecked;
-    public GameObject grabbable, hingeObject, cervicalGhost, backInspectPoints;
+    public GameObject grabbable, hingeObject, cervicalGhost, cervicalCollar, backInspectPoints, stretcherGhost, stretcher;
     public MeshCollider walkStopperCollider;
 
+    public GameObject interactionsGameObject, patientTakenOut;
     private void Start()
     {
         instance = this;
@@ -48,6 +49,7 @@ public class Manager : MonoBehaviour
         #region Injury Check
         if(inspectCount == 5 && !chestChecked)
         {
+            Debug.Log("inspectCount reached 5");
             chestChecked = true;
             grabbable.SetActive(true);
             backInspectPoints.SetActive(true);
@@ -61,13 +63,30 @@ public class Manager : MonoBehaviour
         
         if(chestChecked && backChecked)
         {
-            //next animation will be played
+            stretcherGhost.SetActive(true);
+            stretcher.SetActive(true);
         }
         #endregion
     }
 
     void EnableGhost()
     {
+        Invoke(nameof(DelayedEnable), 5f);
+    }
+
+    void DelayedEnable()
+    {
         cervicalGhost.SetActive(true);
+        cervicalCollar.SetActive(true);
+    }
+
+    public void DisableGameObject()
+    {
+        Invoke(nameof(DisableDelay), 2f);
+    }
+
+    void DisableDelay()
+    {
+        interactionsGameObject.SetActive(false);
     }
 }

@@ -11,12 +11,25 @@ public class WalkStopperScript : MonoBehaviour
         if(other.name == "walking_animations_helpers")
         {
             FadeInFadeOut.instance.FadeIn();
-            StartCoroutine(disableGameObject(other));
+            StartCoroutine(disablehelpersWalk(other));
+        }
+
+        if(other.name == "helpers_with_patient_01")
+        {
+            FadeInFadeOut.instance.FadeIn();
+            StartCoroutine(disableHelperWithPatient(other));
         }
     }
-    IEnumerator disableGameObject(Collider otherColl)
+    IEnumerator disablehelpersWalk(Collider otherColl)
     {
-        audioManager.instance.PlayAudio("teleport to train");
+        audioManager.instance.PlayAudio("trainTeleport");
+        yield return new WaitForSeconds(disableTimer);
+        otherColl.gameObject.SetActive(false);
+
+    }
+
+    IEnumerator disableHelperWithPatient(Collider otherColl)
+    {
         yield return new WaitForSeconds(disableTimer);
         otherColl.gameObject.SetActive(false);
 
