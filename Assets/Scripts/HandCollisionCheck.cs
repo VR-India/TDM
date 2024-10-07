@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BNG;
+
 
 public class HandCollisionCheck : MonoBehaviour
 {
@@ -14,8 +16,9 @@ public class HandCollisionCheck : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            coll.enabled = false;
+            gameObject.SetActive(false);
             Manager.instance.inspectCount++;
+            Haptics.Instance.DoHaptics(ControllerHand.Left, 0.5f,0.2f, 0.2f);
         }
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WalkStopperScript : MonoBehaviour
 {
@@ -11,27 +12,33 @@ public class WalkStopperScript : MonoBehaviour
         if(other.name == "walking_animations_helpers")
         {
             FadeInFadeOut.instance.FadeIn();
-            StartCoroutine(disablehelpersWalk(other));
+            StartCoroutine(DisablehelpersWalk(other));
         }
 
-        if(other.name == "helpers_with_patient_01")
+        if(other.name == "helpers_with_patient_01 (1)")
         {
             FadeInFadeOut.instance.FadeIn();
-            StartCoroutine(disableHelperWithPatient(other));
+            StartCoroutine(DisableHelperWithPatient(other));
+            StartCoroutine(ChangeSceneDelay(other));
         }
     }
-    IEnumerator disablehelpersWalk(Collider otherColl)
+    IEnumerator DisablehelpersWalk(Collider otherColl)
     {
         audioManager.instance.PlayAudio("trainTeleport");
         yield return new WaitForSeconds(disableTimer);
         otherColl.gameObject.SetActive(false);
-
+        this.gameObject.SetActive(false);
     }
 
-    IEnumerator disableHelperWithPatient(Collider otherColl)
+    IEnumerator DisableHelperWithPatient(Collider otherColl)
     {
         yield return new WaitForSeconds(disableTimer);
         otherColl.gameObject.SetActive(false);
+    }
 
+    IEnumerator ChangeSceneDelay(Collider otherColl)
+    {
+        yield return new WaitForSeconds(10f);
+        SceneManager.LoadScene("EndScene");
     }
 }

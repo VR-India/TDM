@@ -6,28 +6,30 @@ using UnityEngine;
 
 public class Ghost : MonoBehaviour
 {
-    public GameObject gameobjectToActivate;
+    public GameObject objectToActivate;
     public string ghostObjectTag;
+    public GameObject collarMesh;
 
     private void OnTriggerStay(Collider other)
     {
         if(other.gameObject.tag == ghostObjectTag && !other.GetComponent<Grabbable>().BeingHeld)
         {
-            other.transform.parent = transform.parent;
-            other.transform.position = transform.position;
-            other.transform.rotation = transform.rotation;
-            other.GetComponent<SphereCollider>().enabled = false;
-            gameObject.SetActive(false);
-            Debug.Log("collar collider triggered");
-            ActivateInjuryCheckGhost();
+            //other.transform.parent = transform;
+            //other.transform.position = transform.position;
+            //other.transform.rotation = transform.rotation;
+            //other.GetComponent<Collider>().enabled = false;
+            //this.GetComponent<Collider>().enabled = false;
+            //collarMesh.SetActive(false);
+            //Debug.Log("collar collider triggered");
+            //ActivateInjuryCheckGhost();
         }
     }
 
-    void ActivateInjuryCheckGhost()
+    public void ActivateInjuryCheckGhost()
     {
-        if(gameObject.name == "collar ghost" && gameobjectToActivate != null)
+        if(gameObject.name == "collar ghost" && objectToActivate != null)
         {
-            gameobjectToActivate.SetActive(true);
+            objectToActivate.SetActive(true);
         }
     }
 }

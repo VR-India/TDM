@@ -20,6 +20,8 @@ public class Manager : MonoBehaviour
     public GameObject grabbable, hingeObject, cervicalGhost, cervicalCollar, backInspectPoints, stretcherGhost, stretcher;
     public MeshCollider walkStopperCollider;
 
+    public RectTransform doneCanvas;
+
     public GameObject interactionsGameObject, patientTakenOut;
     private void Start()
     {
@@ -37,7 +39,7 @@ public class Manager : MonoBehaviour
                 anims[i].animator.enabled = true;
             }
         }
-        if(animatorName == "Neck helper")
+        if(animatorName == "Neck helper" && !cervicalGhost.activeSelf)
         {
             Invoke("EnableGhost", 2f);
         }
@@ -65,13 +67,14 @@ public class Manager : MonoBehaviour
         {
             stretcherGhost.SetActive(true);
             stretcher.SetActive(true);
+            doneCanvas.gameObject.SetActive(true);
         }
         #endregion
     }
 
     void EnableGhost()
     {
-        Invoke(nameof(DelayedEnable), 5f);
+        Invoke(nameof(DelayedEnable), 3f);
     }
 
     void DelayedEnable()
@@ -88,5 +91,6 @@ public class Manager : MonoBehaviour
     void DisableDelay()
     {
         interactionsGameObject.SetActive(false);
+        patientTakenOut.SetActive(true);
     }
 }

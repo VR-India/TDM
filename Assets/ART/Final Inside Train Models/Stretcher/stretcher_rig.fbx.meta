@@ -5,8 +5,8 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects: {}
   materials:
-    materialImportMode: 1
-    materialName: 0
+    materialImportMode: 2
+    materialName: 2
     materialSearch: 0
     materialLocation: 0
   animations:

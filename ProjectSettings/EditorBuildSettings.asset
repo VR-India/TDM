@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Train/IntroOffice.unity
+    path: Assets/Scenes/Final Scenes/IntroOffice.unity
     guid: d3f168c751057f545866514fbdde5f7a
   - enabled: 1
-    path: Assets/Train/Ag/Train accident scene_Final.unity
+    path: Assets/Scenes/Final Scenes/Train accident scene_Final.unity
     guid: e06d85f6b85bc39419ee0f3f479e1627
+  - enabled: 1
+    path: Assets/Scenes/Final Scenes/EndScene.unity
+    guid: 4175ce92b482fa040af74b867ad3d6cc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 576e0535930b967459bceba270c81ec1,
       type: 2}
